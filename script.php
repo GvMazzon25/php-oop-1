@@ -23,7 +23,7 @@ class Car {
 } 
 
 //Car 1
-$car = new Car('fiat 500', '10.000$', '0', 'false');
+$car1 = new Car('fiat 500', '10.000$', '0', 'false');
 var_dump($car);
 
 echo '<p>' .$car->getIncentivo() . '..</p>';
@@ -31,7 +31,7 @@ echo '<p>' .$car->getIncentivo() . '..</p>';
 echo '<hr>';
 
 //Car 2
-$car = new Car('Tesla model S', '105.970', '30.000', 'true');
+$car2 = new Car('Tesla model S', '105.970', '30.000', 'true');
 var_dump($car);
 
 echo '<p>' .$car->getIncentivo() . '..</p>';

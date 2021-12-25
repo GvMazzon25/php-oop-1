@@ -7,6 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <h1>My Blog</h1>
+    </header>
+    <main>
+        <article>
+            <?php
+              $car1 = new Car('fiat 500', '10.000$', '0', 'false')
+            ?>
+        </article>
+    </main>
 </body>
 </html>
