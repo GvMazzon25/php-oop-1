@@ -3,7 +3,7 @@ class User{
     public $name;
     public $sold = 0;
 
-    public function setSold($eta){
+    public function getSold($eta){
         if($eta > 65) {
             $this->sconto = 40;
         }
