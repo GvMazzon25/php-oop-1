@@ -1,41 +1,21 @@
 <?php 
+class Number {
+    public $x;
+    public $y;
 
-class Car {
-    public $name;
-    public $prize;
-    public $incentivo;
-    public $isElectric;
-    //public $isElectric;
-
-    function __construct($name, $prize, $incentivo = 0, $isElectric = false){
-        $this->name = $name;
-        $this->prize = $prize;
-        $this->incentivo = $incentivo;
-        //$this->isElectric = $isElectric;
+    public function getSomma() {
+        $this-> $x += $y;
     }
+}
 
-    public function getIncentivo($isElectric) {
-        if(isElectric == true) {
-           $result = substr($this->prize - $this->incentivo);
-           return $result
-        }
-    }
-} 
+$first = new Number();
+$first-> $x = 3;
+$first-> $y = 4;
+$get_somma_first = $first->getSomma(); 
 
-//Car 1
-$car1 = new Car('fiat 500', '10.000$', '0', 'false');
-var_dump($car);
-
-echo '<p>' .$car->getIncentivo() . '..</p>';
-
-echo '<hr>';
-
-//Car 2
-$car2 = new Car('Tesla model S', '105.970', '30.000', 'true');
-var_dump($car);
-
-echo '<p>' .$car->getIncentivo() . '..</p>';
-
-echo '<hr>';
+$second = new Number();
+$second-> $x = 3;
+$second-> $y = 4;
+$get_somma_second = $second->getSomma(); 
 
 ?>

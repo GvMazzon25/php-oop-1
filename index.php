@@ -1,3 +1,7 @@
+<?php 
+  include 'script.php'
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,11 +15,20 @@
         <h1>My Blog</h1>
     </header>
     <main>
-        <article>
-            <?php
-              $car1 = new Car('fiat 500', '10.000$', '0', 'false')
-            ?>
-        </article>
+        <div>
+            <h3>
+                Il risultato è
+                <?php 
+                     echo $x;
+                ?>
+            </h3>
+            <h3>
+                Il risultato è
+                <?php
+                    echo "$get_somma_second";
+                ?>
+            </h3>
+        </div>
     </main>
 </body>
 </html>
